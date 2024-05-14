@@ -56,7 +56,8 @@ $sno = 0;
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./bootstrap_css/bootstrap.min.css">
-    <link rel="stylesheet" href="//cdn.datatables.net/2.0.4/css/dataTables.dataTables.min.css">
+    <!-- <link rel="stylesheet" href="//cdn.datatables.net/2.0.4/css/dataTables.dataTables.min.css"> -->
+    <link href="./DataTables/datatables.min.css" rel="stylesheet">
 </head>
 
 <body class="anta-regular">
@@ -165,7 +166,8 @@ $sno = 0;
 
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="//cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
+    <!-- <script src="//cdn.datatables.net/2.0.3/js/dataTables.min.js"></script> -->
+    <script src="./DataTables/datatables.min.js"></script>
     <script>
         let table = new DataTable('#myTable');
     </script>
